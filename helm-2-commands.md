@@ -1,4 +1,4 @@
-# Helm Commands.
+# Helm 2 Commands.
 
 
 
@@ -25,7 +25,7 @@
 
 
 
-## version 2. ... 
+## General. 
 
 | Key/Command                                                        | Description                                                                                                        |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -49,7 +49,7 @@
 
 
 
-## version 2. ...
+## 
 | Key/Command                                                                                                  | Description                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | kubectl -n kube-system create serviceaccount tiller                                                          |                                                                                                                    |
@@ -57,27 +57,6 @@
 | kubectl get clusterrolebindings tiller                                                                       |                                                                                                                    |
 |                                                                                                              |                                                                                                                    |
 
-
-
-
-
-## version 3. ...
-
-| Key/Command                                                                         | Description                                                                                                        |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| helm version                                                                        |                                                                                                                    |
-| helm version --short --client                                                       |                                                                                                                    |
-| helm plugin list                                                                    |                                                                                                                    |
-| helm plugin install [namePlugin]                                                    |                                                                                                                    |
-| helm [namePlugin] help                                                              |                                                                                                                    |
-| helm install [nameAppInTheSystem] [nameApp]                                         |                                                                                                                    |
-| helm uninstall [namePlugin]                                                         |                                                                                                                    |
-| helm search repo [nameRepo]                                                         |                                                                                                                    |
-| helm repo add stable https://kubernetes-charts.storage.googleapis.com/              | Add a chart repository.                                                                                            |
-| helm repo update                                                                    |                                                                                                                    |
-| helm list                                                                           |                                                                                                                    |
-| helm show chart [nameChart]                                                         |                                                                                                                    |
-|                                                                                     |                                                                                                                    |
 
 
 
