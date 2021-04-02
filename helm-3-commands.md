@@ -111,6 +111,16 @@
 
 
 
+## Sort this commands.
+
+| Key/Command                                                                         | Description                                                                                                        |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| helm repo add strimzi https://strimzi.io/charts/                                    |                                                                                                                    |
+| helm install strimzi strimzi/strimzi-kafka-operator --namespace microcks            |                                                                                                                    |
+|                                                                                     |                                                                                                                    |
+
+
+
 
 
 ## Useful links.
