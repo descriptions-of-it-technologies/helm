@@ -7,7 +7,8 @@
 ## Contents at a Glance.
 * [About.](#about)
 * [Documentation.](#documentation)
-* [Helm Commands.](helm-commands.md)
+* [Helm 2 Commands.](helm-2-commands.md)
+* [Helm 3 Commands.](helm-3-commands.md)
 * [Help.](#help)
 
 
