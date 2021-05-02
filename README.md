@@ -27,4 +27,17 @@
 
 
 
+## What is Helm 
+* Package manager for Kubernetes.
+* Helm Charts.
+* Templating Engine.
+* Release management.
+
+
+
+
+
+##
+* template files.
+* values.yaml file
 ## Help.
